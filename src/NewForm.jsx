@@ -14,7 +14,7 @@ export function NewForm({ onSubmit }) {
 
  return (
          <form onSubmit={handleSubmit} className="new-item-form">
-           <label htmlFor="item">Fun little to-do list</label>
+           <label htmlFor="item">Enter your list item.</label>
            <input
             value={newItem}
             onChange={e => setNewItem(e.target.value)} // Getting the value of the input, setting it as the new value, and updating it on the list.

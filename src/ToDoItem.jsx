@@ -1,4 +1,5 @@
-export function ToDoItem({ completed, id, title, toggleTodo, deleteTodo }) {
+import { motion, AnimatePresence } from "framer-motion"
+export function ToDoItem({ completed, id, title, toggleTodo, deleteTodo, isVisible }) {
     return (
         <li>
           <label>
